@@ -6,13 +6,11 @@ Created on Feb 16, 2016
 import sys
 def main():
     print ('Hello there', sys.argv[0])
-    print ("yet another")
-    myString='\n\n'
+    myString="some alpha"
     myInt1 =10
-    print(10/12)
-    myOtherString=r'\n\n'
-    print(len(myString))
-    print(len(myOtherString))
+    
+    print(myString.isalpha())
+    print(myInt1.is_int())
     
 if __name__ == '__main__':
     main()
