@@ -9,6 +9,8 @@ def main():
     myString="some alpha"
     myInt1 =10
     
+    
+    
     print(myString.isalpha())
     print(myInt1.is_int())
     
